@@ -1,0 +1,34 @@
+{
+  "name": "bluefly-cli",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hahei89/bluefly-cli.git"
+  },
+  "bin": {
+    "bluefly-cli": "index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hahei89/bluefly-cli/issues"
+  },
+  "homepage": "https://github.com/hahei89/bluefly-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.1",
+    "download": "^7.1.0",
+    "download-git-repo": "^2.0.0",
+    "handlebars": "^4.2.1",
+    "inquirer": "^7.0.0",
+    "ora": "^4.0.0",
+    "shelljs": "^0.8.4",
+    "symbols": "^0.0.6"
+  }
+}
