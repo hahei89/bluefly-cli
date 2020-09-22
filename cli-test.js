@@ -1,4 +1,4 @@
-const fs = require('fs')
+/* const fs = require('fs')
 const program = require('commander')
 const chalk = require('chalk')
 const download = require('download-git-repo')
@@ -74,3 +74,7 @@ function build (websiteDst, serverDst, projectName) {
   moveDir('../temp/server-template', path.join(serverDst, projectName))
 }
 copyFile('src/web-content', 'src/server', 'cli-test')
+ */
+let tenantCode = 'gslq4dev'
+let id = 566777
+console.log('=removeById("' + tenantCode + '","custome","ec_project_economy_summary",' + id + ',"upVersion")')

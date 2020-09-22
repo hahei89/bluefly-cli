@@ -81,7 +81,7 @@ program
   .version(require('./package').version, '-v, --version')
   .command('create <name>')
   .action(name => {
-    copyFile('src/web-content', 'src/server', name)
+    copyFile('src/web-content/module', 'src/server', name)
   })
   .on('--help', () => {
     console.log('  Examples:')
